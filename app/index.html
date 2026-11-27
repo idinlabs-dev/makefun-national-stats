@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan in Numbers — A Shrinking, Aging, Resilient Nation</title>
+<meta name="description" content="Japan's population, age structure, births, economy, labour and regions in numbers. Real published figures with sources, 1950–2070.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="header-in">
+    <div class="brand serif">Japan <em>in</em> Numbers</div>
+    <span class="badge" id="as-of">Data as of 2024/25</span>
+    <nav class="main">
+      <a href="#overview">Overview</a>
+      <a href="#population">Population</a>
+      <a href="#births">Births</a>
+      <a href="#economy">Economy</a>
+      <a href="#labour">Labour</a>
+      <a href="#regions">Regions</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 1 · Overview -->
+  <section id="overview">
+    <div class="hero">
+      <div class="hero-copy">
+        <div class="section-kicker">National Statistics · Japan</div>
+        <h1>Japan&rsquo;s population has fallen for <span>15 straight years.</span></h1>
+        <p>It peaked at 128.1 million in 2008. Since then every year has brought fewer births, more deaths, and a population that is older than any other on Earth — and yet the economy, the cities and daily life keep adapting.</p>
+        <p class="hero-note">One story runs through every chart on this page: a shrinking, aging, resilient nation. All figures are real published statistics, rounded, with their source under each chart. Projections are shown dashed.</p>
+      </div>
+      <div class="card" id="hero-chart"></div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <!-- 2 · Population & Age Structure -->
+  <section id="population">
+    <div class="section-kicker">02 · Population &amp; Age Structure</div>
+    <h2 class="section-head">The pyramid became a tower</h2>
+    <p class="section-sub">Pick a year and watch the age pyramid flip: wide at the bottom in 1950, top-heavy by 2025, and nearly a column by 2070.</p>
+    <div class="grid">
+      <div class="card span8">
+        <div class="year-pills" id="pyr-years">
+          <button data-year="1950">1950</button>
+          <button data-year="1975">1975</button>
+          <button data-year="2000">2000</button>
+          <button data-year="2025" aria-pressed="true">2025</button>
+          <button data-year="2050">2050</button>
+          <button data-year="2070">2070</button>
+        </div>
+        <div id="pyramid-chart"></div>
+      </div>
+      <div class="card span4" id="age-area"></div>
+    </div>
+  </section>
+
+  <!-- 3 · Births, Deaths & Longevity -->
+  <section id="births">
+    <div class="section-kicker">03 · Births, Deaths &amp; Longevity</div>
+    <h2 class="section-head">Fewer babies, longer lives</h2>
+    <p class="section-sub">Births have halved since their 1973 peak while deaths keep climbing — yet a newborn today can expect to live to 84.</p>
+    <div class="grid">
+      <div class="card span8" id="vital-chart"></div>
+      <div class="card span4" id="tfr-chart"></div>
+      <div class="card span6" id="life-chart"></div>
+      <div class="card span6">
+        <div class="chart-title">The arithmetic of decline</div>
+        <p style="margin:0 0 10px">In 2024 Japan recorded about <strong>720,000 births</strong> and about <strong>1,620,000 deaths</strong> — a natural decrease of roughly <strong>900,000 people in one year</strong>, the largest on record. Net migration (about +340,000 in 2024) softens the fall but does not reverse it.</p>
+        <p style="margin:0 0 10px">At the same time, Japan has the world&rsquo;s longest life expectancy: <strong>87.1 years for women and 81.1 for men</strong> (2024). The country is not dying young — it is living longer and having far fewer children.</p>
+        <p style="margin:0">Fertility has been below the 2.1 replacement level since 1975. At 1.15 children per woman (2024), each generation is roughly half the size of the one before it.</p>
+        <div class="chart-source">Source: MHLW vital statistics; Statistics Bureau of Japan (e-Stat); Immigration Services Agency, 2024</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · Economy -->
+  <section id="economy">
+    <div class="section-kicker">04 · Economy</div>
+    <h2 class="section-head">Big, rich, barely growing</h2>
+    <p class="section-sub">The world&rsquo;s fourth-largest economy has grown by less than 1% a year on average since 2000 — but unemployment has stayed near 2.5% through every shock.</p>
+    <div class="grid">
+      <div class="card span8" id="gdp-chart"></div>
+      <div class="card span4" id="rank-chart"></div>
+      <div class="card span6" id="cpi-chart"></div>
+      <div class="card span6">
+        <div class="chart-title">Why growth is so slow — and why it matters less than it looks</div>
+        <p style="margin:0 0 10px">With the working-age population shrinking by about 0.5% a year, even flat total GDP means rising GDP per worker. Japan&rsquo;s GDP per capita (about $33,800 in 2024) is still among the highest in Asia.</p>
+        <p style="margin:0 0 10px">Two shocks define the century: the global financial crisis (−5.4% in 2009) and the pandemic (−4.3% in 2020). Both were followed by recoveries — but never a return to the fast growth of the 1980s.</p>
+        <p style="margin:0">After decades of deflation, prices rose again: CPI inflation averaged 2.7% in 2024, and the Bank of Japan ended its negative-rate policy the same year.</p>
+        <div class="chart-source">Source: Cabinet Office, national accounts; IMF World Economic Outlook 2024; Bank of Japan</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · Labour & Society -->
+  <section id="labour">
+    <div class="section-kicker">05 · Labour &amp; Society</div>
+    <h2 class="section-head">More women working, more foreign neighbours</h2>
+    <p class="section-sub">The labour force adapted to shrinkage: women stayed in work after having children, and foreign residents more than tripled since 2000.</p>
+    <div class="grid">
+      <div class="card span6" id="mcurve-chart"></div>
+      <div class="card span6" id="sectors-chart"></div>
+      <div class="card span6" id="foreign-chart"></div>
+      <div class="card span6">
+        <div class="chart-title">The quiet adaptation</div>
+        <p style="margin:0 0 10px">Female labour-force participation for ages 25–29 rose from 72% in 1990 to 88% in 2024, and the old dip at ages 30–34 — women leaving work to raise children — has largely flattened. Childcare expansion and a tight labour market did what policy speeches could not.</p>
+        <p style="margin:0 0 10px">Foreign residents reached 3.77 million at the end of 2024 (3.0% of the population), up from about 1.1 million in 2000. China and Viet Nam are the two largest groups.</p>
+        <p style="margin:0">Three in four workers are now in services; manufacturing employs about one in four, and farming, forestry and fishing just 3%.</p>
+        <div class="chart-source">Source: Statistics Bureau of Japan, Labour Force Survey 2024; Immigration Services Agency, 2024</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · Regions -->
+  <section id="regions">
+    <div class="section-kicker">06 · Regions</div>
+    <h2 class="section-head">Tokyo grows younger; Akita grows older</h2>
+    <p class="section-sub">Aging is not evenly spread. The capital region stays young and keeps growing, while rural prefectures lose more than 1% of their people every year.</p>
+    <div class="grid">
+      <div class="card span8">
+        <div class="toggle" id="region-toggle">
+          <button data-mode="aging" aria-pressed="true">Share aged 65+</button>
+          <button data-mode="change">Population change</button>
+        </div>
+        <div class="tiles" id="tiles"></div>
+        <div class="legend" id="tiles-legend"></div>
+        <div class="chart-source">Tile cartogram — each tile is one prefecture, placed by approximate geography. Source: <span id="pref-source">Statistics Bureau of Japan (e-Stat), population estimates 2024</span></div>
+      </div>
+      <div class="card span4">
+        <div class="chart-title">Oldest prefectures</div>
+        <ul class="rank-list" id="rank-top"></ul>
+        <div class="chart-title" style="margin-top:18px">Youngest prefectures</div>
+        <ul class="rank-list" id="rank-bottom"></ul>
+        <div class="chart-source">Share of population aged 65+, 2024. Source: Statistics Bureau of Japan (e-Stat)</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <h3>Sources &amp; methodology</h3>
+  <p>Population and age structure: Statistics Bureau of Japan (e-Stat) population estimates; projections: National Institute of Population and Social Security Research (IPSS), 2023 projections, medium variant. Births, deaths, fertility and life expectancy: Ministry of Health, Labour and Welfare (MHLW) vital statistics and life tables. Economy: Cabinet Office national accounts; IMF World Economic Outlook 2024; Bank of Japan. Labour: Statistics Bureau of Japan, Labour Force Survey 2024. Foreign residents: Immigration Services Agency, 2024. Prefectures: Statistics Bureau of Japan (e-Stat), 2024.</p>
+  <p>Figures are rounded for display; pyramid band values are rounded and totals are approximate. Projections are shown dashed and labelled as projections. <span id="updated">Last updated 27 November 2026</span>.</p>
+  <p>Japan in Numbers — an original statistics page. Not affiliated with any government agency.</p>
+</footer>
+
+<script type="module" src="views.js"></script>
+</body>
+</html>
