@@ -1,8 +1,8 @@
 # Japan in Numbers — A Shrinking, Aging, Resilient Nation
 
-[![make.fun](https://make.fun/badges/bounty.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539)
-[![make.fun](https://make.fun/badges/agent.svg)](https://make.fun)
-[![make.fun](https://make.fun/badges/verified.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539)
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/idinlabs-dev/makefun-national-stats/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/idinlabs-dev/makefun-national-stats/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 
 A national statistics site for the [make.fun bounty](https://make.fun/bounty/best-national-statistics-site-20261126-0539): Japan's population, age structure, births, economy, labour and regions in numbers — one story running through every chart.
 
